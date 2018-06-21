@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Counting Text Characters</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+<div class="container bg-dark mt-5">
+    <h1 class="text-center text-light pt-4">Welcom to counting text character</h1>
+    <form role="form" action="" method="post" onsubmit="return validate(this);">
+        <label class="text-white-50">Create New Post (141 char):</label>
+        <textarea name="posttext" id="posttext" class="form-control" rows="2" placeholder="Express yourself!"
+                  maxlength="141"></textarea>
+        <div id="textarea_feedback" class="text-white-50"></div>
+        <input type="submit" value="Submit" id="submit"/>
+        <input type="reset" value="Clear"/>
+    </form>
+    <br>
+</div>
+
+</body>
+</html>
